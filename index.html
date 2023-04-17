@@ -17,21 +17,25 @@
         <ion-icon class="persons" name="people"></ion-icon>
     </div>
 
-    <ul>
-        <li class="msg">
+    <ul class="main">
+        <!-- <li class="msg">
             exemplo de mensagem
         </li>
         <li class="msg default">
             <div class="time">(hh:mm:ss)</div>
             <div class="remetente"><strong> Guts</strong> para <strong>Todos:</strong></div>
             <div class="conteudo">Bom dia</div>
-        </li>
+        </li> -->
     </ul>
 
     <div class="bottom">
         <input data-test="input-message" class="qual" type="text" placeholder="Escreva aqui...">
-        <ion-icon data-test="send-message" class="send" name="paper-plane-outline"></ion-icon>
+        <button data-test="send-message" class="envia" onclick="enviaMsg()">
+            <ion-icon data-test="send-message" class="send" name="paper-plane-outline"></ion-icon>
+        </button>
     </div>
+
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="./scripts/script.js"></script>

@@ -69,8 +69,6 @@ body {
 .msg {
     width: 100%;
     height: auto;
-
-    background-color: #DCDCDC;
     border-radius: 2px;
     margin-bottom: 6px;
     display: flex;
@@ -106,6 +104,14 @@ body {
     word-wrap: break-word;
 }
 
-.default {
+.message {
     background-color: #FFFFFF;
+}
+
+.status {
+    background-color: #DCDCDC;
+}
+
+.private_messages {
+    background-color: #FFDEDE;
 }
